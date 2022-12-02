@@ -11,6 +11,24 @@
     padding: 0;
 }
 
+.loading {
+    text-align: center;
+    font-size: 2rem;
+    color: brown;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+
+.error {
+    text-align: center;
+    font-size: 1rem;
+    font-style: italic;
+    color: brown;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+
+
 @keyframes meals-appear {
     from {
         opacity: 0;
